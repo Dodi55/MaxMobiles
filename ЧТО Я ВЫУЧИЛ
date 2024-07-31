@@ -1,0 +1,3 @@
+store.getstate().xxx = получение значений из стора;
+store.dispatch() = запускает Actione;
+

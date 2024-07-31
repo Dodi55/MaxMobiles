@@ -4,6 +4,43 @@
  
 .header-main-info-icon
     font-size: 24px
-    color: #4d4d4d
+    color: #6a6a6a
     margin: 0 10px
     position: relative
+    transition: 0.2s
+    &:hover
+        color: #242424  
+
+
+.shopBasket-count
+    position: absolute
+    background-color: #000
+    top: -20px
+    right: 0
+    text-align: center
+    font-size: 10px
+    padding: 0 5px
+    
+.header-basket
+    width: 550px
+    max-height: 360px
+    background-color: #fff
+    position: absolute
+    right: 0
+    top: 110%
+    z-index: 999
+    border-radius: 6px
+    box-shadow: 0 0 5px 0 #969696
+    overflow-y: auto
+    
+    
+.header-basket-footer
+    background-color: #232323
+    color: #fff
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 20px 20px
+
+.basket-hidden
+    display: none
